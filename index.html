@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alvenix Global Training Educación | Clases de nivelación en matemática y estadística en línea</title>
+<meta name="description" content="Clases de nivelación en matemática en línea para secundaria y universidad: Álgebra, Cálculo, Álgebra Lineal, Trigonometría, Geometría y Estadística. Preparación para exámenes.">
+<meta name="keywords" content="clases de nivelación matemática, clases de matemáticas en línea, clases particulares de matemáticas, nivelación universitaria, estadística universidad, profesor de estadística, álgebra, cálculo, álgebra lineal, trigonometría, geometría, preparación para exámenes, examen de ingreso universidad, Ecuador">
+<meta name="author" content="Alvenix Global Training Educación">
+<meta property="og:title" content="Alvenix Global Training Educación">
+<meta property="og:description" content="Nivelación en matemática y estadística para secundaria y universidad, en línea. Preparación para exámenes.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_EC">
+<link rel="icon" type="image/png" href="logo.png">
+<meta property="og:image" content="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "Alvenix Global Training Educación",
+  "description": "Clases de nivelación en matemática y estadística en línea para secundaria y universidad, y preparación para exámenes.",
+  "areaServed": "Ecuador",
+  "availableLanguage": ["es"]
+}
+</script>
+<style>
+:root{
+  --bg:#fffdf8; --bg-alt:#fdf3df; --text:#3a1f1c; --muted:#6e5650;
+  --primary:#c4521a; --primary-dark:#9c3f12; --accent:#f2b544;
+  --card:#ffffff; --border:#efdfc4; --placeholder:#fff0b8;
+  --free:#e3f4e1; --free-text:#22662a; --busy:#f1ebe6; --busy-text:#9a8a84;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1d1513; --bg-alt:#271c19; --text:#f6ece6; --muted:#c7b3aa;
+    --primary:#f4873f; --primary-dark:#ff9d5c; --accent:#f2b544;
+    --card:#2a1f1c; --border:#3d2c28; --placeholder:#4a3a14;
+    --free:#1f3a22; --free-text:#9fe0a6; --busy:#2a211f; --busy-text:#7d6b66;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1d1513; --bg-alt:#271c19; --text:#f6ece6; --muted:#c7b3aa;
+  --primary:#f4873f; --primary-dark:#ff9d5c; --accent:#f2b544;
+  --card:#2a1f1c; --border:#3d2c28; --placeholder:#4a3a14;
+  --free:#1f3a22; --free-text:#9fe0a6; --busy:#2a211f; --busy-text:#7d6b66;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:var(--primary)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--border);z-index:10}
+nav{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;flex-wrap:wrap}
+.logo{font-weight:800;font-size:1.1rem;color:var(--text);text-decoration:none;display:flex;align-items:center;gap:8px}
+.logo img{width:44px;height:35px;border-radius:8px;object-fit:cover}
+.links{display:flex;gap:16px;flex-wrap:wrap;font-size:.95rem}
+.links a{color:var(--muted);text-decoration:none}
+.links a:hover{color:var(--primary)}
+.hero{padding:72px 0 56px;background:linear-gradient(160deg,var(--bg-alt),var(--bg))}
+.hero h1{font-size:clamp(1.9rem,5vw,3rem);line-height:1.15;margin-bottom:16px}
+.hero h1 em{font-style:normal;color:var(--primary)}
+.hero-grid{display:grid;grid-template-columns:1fr 320px;gap:32px;align-items:center}
+.hero-logo{width:100%;border-radius:24px;box-shadow:0 12px 30px rgba(92,46,42,.18)}
+.hero p{font-size:1.15rem;color:var(--muted);max-width:640px;margin-bottom:28px}
+.btn{display:inline-block;padding:12px 22px;border-radius:10px;font-weight:600;text-decoration:none;margin:0 8px 8px 0}
+.btn-primary{background:var(--primary);color:#fff}
+.btn-primary:hover{background:var(--primary-dark)}
+.btn-outline{border:2px solid var(--primary);color:var(--primary)}
+section{padding:64px 0}
+section.alt{background:var(--bg-alt)}
+h2{font-size:clamp(1.5rem,3.5vw,2.1rem);margin-bottom:8px}
+.lead{color:var(--muted);margin-bottom:32px;max-width:680px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:22px}
+.card .icon{font-size:1.8rem;margin-bottom:8px}
+.card h3{font-size:1.1rem;margin-bottom:6px}
+.card p{color:var(--muted);font-size:.95rem}
+.steps{counter-reset:s;list-style:none;display:grid;gap:14px}
+.steps li{counter-increment:s;position:relative;padding-left:48px}
+.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:34px;height:34px;border-radius:50%;background:var(--accent);color:#16213a;font-weight:800;display:grid;place-items:center}
+.price{font-size:1.6rem;font-weight:800;color:var(--primary);margin:6px 0}
+.ph{background:var(--placeholder);border-radius:4px;padding:0 4px}
+.about{display:grid;grid-template-columns:180px 1fr;gap:28px;align-items:center}
+.photo{width:180px;height:180px;border-radius:50%;background:var(--bg-alt);border:2px dashed var(--border);display:grid;place-items:center;color:var(--muted);text-align:center;font-size:.85rem;padding:12px}
+.en{border-left:4px solid var(--accent)}
+.contact a.btn{min-width:200px;text-align:center}
+.cal-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--border);border-radius:14px;background:var(--card)}
+table.cal{width:100%;min-width:760px;border-collapse:collapse;font-size:.9rem}
+.cal th,.cal td{border-bottom:1px solid var(--border);padding:8px 6px;text-align:center}
+.cal thead th{background:var(--bg-alt);font-weight:600}
+.cal tbody th{color:var(--muted);font-weight:600;white-space:nowrap;text-align:left;padding-left:12px}
+.slot{display:block;border-radius:8px;padding:6px 4px;font-size:.82rem;text-decoration:none}
+a.slot.free{background:var(--free);color:var(--free-text);font-weight:600}
+a.slot.free:hover{outline:2px solid var(--free-text)}
+.slot.busy{background:var(--busy);color:var(--busy-text)}
+.cal-title{font-size:1.1rem;margin:24px 0 10px}
+.legend{display:flex;gap:16px;flex-wrap:wrap;margin:12px 0 0;font-size:.9rem;color:var(--muted)}
+.legend span::before{content:"";display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.legend .l-free::before{background:var(--free);border:1px solid var(--free-text)}
+.legend .l-busy::before{background:var(--busy);border:1px solid var(--busy-text)}
+footer{padding:28px 0;border-top:1px solid var(--border);color:var(--muted);font-size:.9rem;text-align:center}
+.wa{position:fixed;right:16px;bottom:16px;background:#25d366;color:#fff;border-radius:50px;padding:12px 18px;font-weight:600;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.2)}
+@media (max-width:640px){
+  .links{display:none}
+  .hero-grid{grid-template-columns:1fr}
+  .hero-logo{max-width:240px;margin:0 auto;display:block;grid-row:1}
+  .about{grid-template-columns:1fr;justify-items:center;text-align:center}
+}
+/* ===== Diseño llamativo ===== */
+.hero{background:linear-gradient(135deg,#7a2e14 0%,#c4521a 55%,#f08a3c 100%);color:#fff;padding:80px 0 64px}
+.hero h1{color:#fff}
+.hero h1 em{color:#ffd166}
+.hero p{color:#ffeedd}
+.hero-logo{box-shadow:0 18px 40px rgba(0,0,0,.35);transform:rotate(2deg)}
+.btn{transition:transform .15s,box-shadow .15s,background .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn-cta{background:#ffd166;color:#3a1f1c;font-weight:800;box-shadow:0 6px 0 #d9a432,0 10px 24px rgba(0,0,0,.25)}
+.btn-cta:hover{background:#ffdc85;box-shadow:0 8px 0 #d9a432,0 14px 28px rgba(0,0,0,.3)}
+.btn-ghost{border:2px solid rgba(255,255,255,.85);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.12)}
+.btn-white{background:#fff;color:#128c4a;font-weight:800;font-size:1.05rem;padding:14px 26px;box-shadow:0 10px 24px rgba(0,0,0,.2)}
+.btn-wa{background:#25d366;color:#fff;font-weight:800;box-shadow:0 8px 20px rgba(37,211,102,.35)}
+.btn-wa:hover{background:#1ebe5a}
+.badges{list-style:none;display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.badges li{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:6px 14px;font-size:.9rem;font-weight:600}
+#materias .card{border-top:4px solid var(--primary);transition:transform .15s,box-shadow .15s}
+#materias .card:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(196,82,26,.18)}
+#materias .card .icon{width:52px;height:52px;border-radius:14px;background:linear-gradient(135deg,#ffd166,#f08a3c);color:#3a1f1c;display:grid;place-items:center;font-weight:800;font-size:1.5rem}
+.steps li::before{background:linear-gradient(135deg,#ffd166,#f08a3c)}
+.band-wa{background:linear-gradient(135deg,#128c4a,#25d366);color:#fff}
+.band-wa h2{color:#fff}
+.band-wa .lead{color:#eafff1}
+.price-card{text-align:center;display:flex;flex-direction:column;align-items:center;gap:4px;position:relative}
+.price-card .price{font-size:2.6rem}
+.price-card .btn{margin:12px 0 0}
+.price-card.featured{background:linear-gradient(160deg,#c4521a,#f08a3c);color:#fff;border:none;box-shadow:0 16px 36px rgba(196,82,26,.35)}
+.price-card.featured .price{color:#ffd166}
+.price-card.featured p{color:#ffeedd}
+.tag{position:absolute;top:-12px;background:#ffd166;color:#3a1f1c;font-weight:800;font-size:.8rem;padding:4px 12px;border-radius:999px;text-transform:uppercase;letter-spacing:.04em}
+#precios .grid{max-width:680px}
+.band-dark{background:#3a1f1c;color:#fff}
+.band-dark h2{color:#fff}
+.band-dark .lead{color:#e6d3cb}
+.wa{animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.6)}70%{box-shadow:0 0 0 16px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
+@media (max-width:640px){.hero{padding:40px 0 48px}.hero-logo{max-width:150px !important;height:auto}.hero p{font-size:1.02rem}.btn-cta,.btn-ghost{display:block;text-align:center;margin:0 0 10px}}
+@media (prefers-reduced-motion: reduce){.wa{animation:none}.btn:hover,#materias .card:hover{transform:none}}
+/* ===== Asistente (chatbot) ===== */
+.bot-btn{position:fixed;right:16px;bottom:80px;width:58px;height:58px;border-radius:50%;border:none;cursor:pointer;background:linear-gradient(135deg,#c4521a,#f08a3c);box-shadow:0 8px 20px rgba(0,0,0,.25);padding:0;overflow:hidden;z-index:20}
+.bot-btn img{width:100%;height:100%;object-fit:cover}
+.bot{position:fixed;right:16px;bottom:148px;width:min(360px,calc(100vw - 32px));max-height:min(520px,calc(100vh - 170px));display:none;flex-direction:column;background:var(--card);border:1px solid var(--border);border-radius:18px;box-shadow:0 20px 50px rgba(0,0,0,.3);overflow:hidden;z-index:20}
+.bot.open{display:flex}
+.bot-head{background:linear-gradient(135deg,#7a2e14,#c4521a);color:#fff;padding:12px 14px;display:flex;align-items:center;gap:10px}
+.bot-head img{width:38px;height:38px;border-radius:50%;object-fit:cover;background:#f2b544}
+.bot-head b{display:block;font-size:.95rem}.bot-head small{opacity:.85}
+.bot-head button{margin-left:auto;background:none;border:none;color:#fff;font-size:1.4rem;cursor:pointer}
+.bot-body{flex:1;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:8px;background:var(--bg)}
+.msg{max-width:85%;padding:9px 12px;border-radius:14px;font-size:.92rem;line-height:1.45}
+.msg.b{background:var(--bg-alt);color:var(--text);border-bottom-left-radius:4px;align-self:flex-start}
+.msg.u{background:#c4521a;color:#fff;border-bottom-right-radius:4px;align-self:flex-end}
+.msg a{color:inherit;font-weight:700}
+.chips{display:flex;flex-wrap:wrap;gap:6px;padding:8px 12px;border-top:1px solid var(--border);background:var(--card)}
+.chips button{border:1.5px solid #c4521a;color:var(--primary);background:transparent;border-radius:999px;padding:5px 11px;font-size:.82rem;cursor:pointer;font-family:inherit}
+.chips button:hover{background:#c4521a;color:#fff}
+.bot-form{display:flex;border-top:1px solid var(--border)}
+.bot-form input{flex:1;border:none;padding:12px;font:inherit;background:var(--card);color:var(--text);outline:none}
+.bot-form button{border:none;background:#c4521a;color:#fff;padding:0 16px;font-weight:700;cursor:pointer}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="logo" href="#"><img src="logo.png" alt="Logo de Alvenix Global Training Educación"> Alvenix Global Training</a>
+      <div class="links">
+        <a href="#materias">Materias</a>
+        <a href="#examenes">Exámenes</a>
+        <!-- OCULTO HASTA CONFIRMAR:
+        <a href="#lengua">Lengua</a>
+        <a href="#espanol">Español</a>
+        -->
+        <a href="#horarios">Horarios</a>
+        <a href="#precios">Precios</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+    <h1>Clases de nivelación en <em>matemática</em> para secundaria y universidad</h1>
+    <p>Alvenix Global Training Educación: clases particulares de Álgebra, Cálculo, Álgebra Lineal, Trigonometría, Geometría y Estadística, y preparación para exámenes. Clases 100% en línea.</p>
+    <a class="btn btn-cta" href="https://wa.me/593987595298?text=Hola,%20quisiera%20informaci%C3%B3n%20sobre%20las%20clases" target="_blank" rel="noopener">💬 Agenda tu clase por WhatsApp</a>
+    <a class="btn btn-ghost" href="#precios">Ver precios</a>
+    <ul class="badges">
+      <li>✅ 100% en línea</li>
+      <li>🎓 Secundaria y universidad</li>
+      <li>⭐ Desde $15 la hora</li>
+    </ul>
+    </div>
+    <img class="hero-logo" src="logo.png" alt="Logo de Alvenix Global Training: gato con lentes leyendo un libro" width="400" height="320">
+  </div>
+</section>
+
+<section id="materias">
+  <div class="wrap">
+    <h2>Materias</h2>
+    <p class="lead">Para estudiantes de secundaria y universidad. Explicaciones paso a paso, ejercicios resueltos y práctica guiada según el ritmo de cada estudiante.</p>
+    <div class="grid">
+      <div class="card"><div class="icon">𝑥²</div><h3>Álgebra</h3><p>Ecuaciones, factorización, funciones, sistemas de ecuaciones e inecuaciones.</p></div>
+      <div class="card"><div class="icon">∫</div><h3>Cálculo</h3><p>Límites, derivadas, integrales y sus aplicaciones.</p></div>
+      <div class="card"><div class="icon">[ ]</div><h3>Álgebra Lineal</h3><p>Matrices, determinantes, vectores y sistemas lineales.</p></div>
+      <div class="card"><div class="icon">θ</div><h3>Trigonometría</h3><p>Razones e identidades trigonométricas, resolución de triángulos.</p></div>
+      <div class="card"><div class="icon">△</div><h3>Geometría</h3><p>Áreas, volúmenes, geometría analítica y demostraciones.</p></div>
+      <div class="card"><div class="icon">σ</div><h3>Estadística</h3><p>Secundaria y universidad: estadística descriptiva, probabilidad, distribuciones, inferencia y regresión.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="examenes" class="alt">
+  <div class="wrap">
+    <h2>Preparación para exámenes</h2>
+    <p class="lead">Preparación para pruebas del colegio, exámenes de recuperación, supletorios, exámenes de ingreso a la universidad y exámenes parciales y finales universitarios.</p>
+    <ol class="steps">
+      <li><strong>Diagnóstico:</strong> identificamos los temas que más cuestan.</li>
+      <li><strong>Plan de estudio:</strong> un calendario claro hasta la fecha del examen.</li>
+      <li><strong>Práctica con simulacros:</strong> ejercicios tipo examen con tiempo controlado.</li>
+      <li><strong>Repaso final:</strong> fórmulas clave y estrategias para el día de la prueba.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- OCULTO HASTA CONFIRMAR: Nivelación en Lengua y Literatura
+<section id="lengua">
+  <div class="wrap">
+    <h2>Nivelación en Lengua y Literatura</h2>
+    <p class="lead">Refuerzo para estudiantes de secundaria en la materia de Lengua y Literatura.</p>
+    <div class="grid">
+      <div class="card"><div class="icon">✍️</div><h3>Redacción y ortografía</h3><p>Ensayos, textos argumentativos, puntuación y acentuación.</p></div>
+      <div class="card"><div class="icon">📖</div><h3>Comprensión lectora</h3><p>Análisis de textos, ideas principales e inferencias.</p></div>
+      <div class="card"><div class="icon">🎭</div><h3>Literatura</h3><p>Géneros literarios, figuras literarias y análisis de obras.</p></div>
+      <div class="card"><div class="icon">🔤</div><h3>Gramática</h3><p>Morfología, sintaxis y uso correcto del idioma.</p></div>
+    </div>
+  </div>
+</section>
+-->
+
+<!-- OCULTO HASTA CONFIRMAR: Español para extranjeros
+<section id="espanol" lang="en" class="alt">
+  <div class="wrap">
+    <div class="card en">
+      <h2>Spanish lessons for foreigners</h2>
+      <p class="lead" style="margin-bottom:12px">Learn Spanish with a native speaker from Ecuador. Online or in person, for all levels.</p>
+      <div class="grid">
+        <div><h3>Conversation</h3><p>Speak with confidence in everyday situations: travel, work and daily life.</p></div>
+        <div><h3>Grammar &amp; vocabulary</h3><p>Clear explanations and practical exercises adapted to your level.</p></div>
+        <div><h3>Flexible schedule</h3><p>Classes that fit your time zone, via video call.</p></div>
+      </div>
+      <p style="margin-top:16px" lang="es"><strong>En español:</strong> clases de español para extranjeros, de nivel básico a avanzado, en línea o presenciales.</p>
+    </div>
+  </div>
+</section>
+-->
+
+<section id="modalidad">
+  <div class="wrap">
+    <h2>Modalidad: clases en línea</h2>
+    <div class="grid">
+      <!-- OCULTO HASTA CONFIRMAR: <div class="card"><div class="icon">🏠</div><h3>Presencial</h3><p>En <span class="ph">[tu ciudad / sector]</span>.</p></div> -->
+      <div class="card"><div class="icon">💻</div><h3>100% en línea</h3><p>Desde cualquier lugar, por videollamada (Google Meet o Jitsi), con pizarra digital y material compartido en Google Classroom.</p></div>
+      <div class="card"><div class="icon">👥</div><h3>Individual o en grupo</h3><p>Clases personalizadas o en grupos pequeños.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="horarios" class="band-wa">
+  <div class="wrap" style="text-align:center">
+    <h2>Horarios</h2>
+    <p class="lead" style="margin:0 auto 24px">Tenemos horarios de lunes a domingo, en la mañana, la tarde y la noche. Escríbenos y te enviamos los horarios disponibles de esta semana para reservar tu clase.</p>
+    <a class="btn btn-white" href="https://wa.me/593987595298?text=Hola,%20quisiera%20consultar%20los%20horarios%20disponibles%20para%20una%20clase" target="_blank" rel="noopener">📅 Consulta horarios disponibles por WhatsApp</a>
+  </div>
+</section>
+<!-- CALENDARIO OCULTO (por si se quiere volver a mostrar):
+<section id="horarios" class="alt">
+  <div class="wrap">
+    <h2>Horarios disponibles esta semana</h2>
+    <p class="lead">Toca un horario libre para reservarlo por WhatsApp. Hora de Ecuador (GMT-5).</p>
+    <h3 class="cal-title">📐 Matemática: nivelación (secundaria y universidad) y preparación para exámenes</h3>
+    <div class="cal-wrap"><table class="cal" id="cal-mate" aria-label="Horarios disponibles de matemática"></table></div>
+    <h3 class="cal-title">📚 Español: para extranjeros y nivelación en Lengua y Literatura</h3>
+    <div class="cal-wrap"><table class="cal" id="cal-espanol" aria-label="Horarios disponibles de español"></table></div>
+    <div class="legend"><span class="l-free">Disponible</span><span class="l-busy">Ocupado</span></div>
+  </div>
+</section>
+-->
+
+<section id="precios">
+  <div class="wrap">
+    <h2>Precios</h2>
+    <p class="lead">Precios referenciales. Consulta por paquetes de varias clases.</p>
+    <div class="grid">
+      <div class="card price-card"><h3>Clase individual</h3><div class="price">$15</div><p>Por hora.</p><a class="btn btn-outline" href="https://wa.me/593987595298?text=Hola,%20quiero%20contratar%20una%20clase%20individual" target="_blank" rel="noopener">Quiero contratar clase individual</a></div>
+      <div class="card price-card featured"><span class="tag">Más conveniente</span><h3>Paquete de 8 clases</h3><div class="price">$110</div><p>8 clases de una hora. ¡Ahorras $10!</p><a class="btn btn-cta" href="https://wa.me/593987595298?text=Hola,%20quiero%20adquirir%20el%20paquete%20de%208%20clases" target="_blank" rel="noopener">Quiero adquirir el paquete</a></div>
+      <!-- OCULTO HASTA CONFIRMAR: <div class="card"><h3>Español para extranjeros</h3><div class="price"><span class="ph">$[00]</span></div><p>Per hour / por hora.</p></div> -->
+    </div>
+  </div>
+</section>
+
+<section id="sobre-nosotros" class="alt">
+  <div class="wrap about">
+    <img class="photo" src="logo.png" alt="Logo de Alvenix Global Training Educación" style="object-fit:cover;border:none;padding:0">
+    <div>
+      <h2>Sobre nosotros</h2>
+      <p class="lead" style="margin-bottom:12px">En Alvenix Global Training Educación somos un equipo de profesores altamente formados en matemática, con varios años de experiencia enseñando a estudiantes de secundaria y universidad.</p>
+      <p class="lead" style="margin-bottom:0">Sabemos que cada estudiante aprende a su propio ritmo. Por eso explicamos paso a paso, con ejemplos claros y mucha práctica, para que nuestros alumnos entiendan de verdad los temas, mejoren sus notas y lleguen seguros a sus exámenes.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="contact band-dark">
+  <div class="wrap">
+    <h2>Contacto</h2>
+    <p class="lead">Escríbenos para agendar tu primera clase.</p>
+    <a class="btn btn-wa" href="https://wa.me/593987595298?text=Hola,%20quisiera%20informaci%C3%B3n%20sobre%20las%20clases" target="_blank" rel="noopener">💬 WhatsApp: <span>098 759 5298</span></a>
+    <a class="btn btn-ghost" href="mailto:e-datos.ec@gmail.com">✉️ Correo: e-datos.ec@gmail.com</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Alvenix Global Training Educación · Clases de nivelación en matemática y estadística, en línea</div>
+</footer>
+
+<a class="wa" target="_blank" rel="noopener" href="https://wa.me/593987595298?text=Hola,%20quisiera%20informaci%C3%B3n%20sobre%20las%20clases">💬 WhatsApp</a>
+
+<script>
+/* =====================================================================
+   EDITA TUS HORARIOS AQUÍ
+   Cada hora indica el INICIO de una clase de 1 hora ("16:00" = de 16:00 a 17:00).
+
+   1) HORARIO_FIJO: tu horario normal de cada semana. Casi nunca cambia.
+   2) RESERVADO: horas ya ocupadas ESTA semana. Cámbialo cada semana.
+   3) DIAS_BLOQUEADOS: días completos sin clases esta semana (feriado, viaje...).
+   Para dejar una lista vacía escribe: []
+   ===================================================================== */
+var WHATSAPP = "593987595298"; // tu número con código de país, sin + ni espacios
+var HORAS = ["07:00","08:00","09:00","10:00","14:00","15:00","16:00","17:00","18:00"];
+
+// 1) Horario normal de matemática
+var MATEMATICA = {
+  "Lunes":     ["16:00","17:00","18:00"],
+  "Martes":    ["07:00","08:00","09:00","10:00","17:00","18:00"],
+  "Miércoles": ["07:00","08:00","17:00","18:00"],
+  "Jueves":    ["07:00","08:00","09:00","10:00","14:00","15:00","16:00","17:00","18:00"],
+  "Viernes":   ["14:00","15:00","16:00","17:00","18:00"],
+  "Sábado":    ["07:00","08:00","09:00","10:00","17:00","18:00"],
+  "Domingo":   ["07:00","08:00","09:00","10:00","14:00","15:00","16:00","17:00","18:00"]
+};
+
+// 2) Horas ya reservadas esta semana. Ejemplo: "Lunes": ["16:00","17:00"]
+var RESERVADO = {
+  "Lunes": [], "Martes": [], "Miércoles": [], "Jueves": [],
+  "Viernes": [], "Sábado": [], "Domingo": []
+};
+
+// 3) Días sin clases esta semana. Ejemplo: ["Sábado","Domingo"]
+var DIAS_BLOQUEADOS = [];
+
+var ESPANOL = { // OCULTO HASTA CONFIRMAR (no se muestra en la página)
+  "Lunes": [], "Martes": [], "Miércoles": [], "Jueves": [],
+  "Viernes": [], "Sábado": [], "Domingo": []
+};
+/* ==== FIN DE LA PARTE EDITABLE ==== */
+
+function finDeClase(hora){
+  var h = parseInt(hora, 10) + 1;
+  return (h < 10 ? "0" : "") + h + ":00";
+}
+function pintarCalendario(id, disponible, materia){
+  var dias = Object.keys(disponible), t = document.getElementById(id);
+  var h = "<thead><tr><th scope='col'>Hora</th>";
+  dias.forEach(function(d){ h += "<th scope='col'>" + d + "</th>"; });
+  h += "</tr></thead><tbody>";
+  HORAS.forEach(function(hora){
+    h += "<tr><th scope='row'>" + hora + " a " + finDeClase(hora) + "</th>";
+    dias.forEach(function(d){
+      var bloqueado = DIAS_BLOQUEADOS.indexOf(d) > -1;
+      var reservado = (RESERVADO[d] || []).indexOf(hora) > -1;
+      var libre = disponible[d].indexOf(hora) > -1;
+      if (bloqueado) {
+        h += "<td><span class='slot busy'>Sin clases</span></td>";
+      } else if (libre && !reservado) {
+        var msg = encodeURIComponent("Hola, quisiera reservar una clase de " + materia + " el " + d + " de " + hora + " a " + finDeClase(hora) + ".");
+        h += "<td><a class='slot free' href='https://wa.me/" + WHATSAPP + "?text=" + msg + "' target='_blank' rel='noopener'>Libre</a></td>";
+      } else {
+        h += "<td><span class='slot busy'>Ocupado</span></td>";
+      }
+    });
+    h += "</tr>";
+  });
+  t.innerHTML = h + "</tbody>";
+}
+// pintarCalendario("cal-mate", MATEMATICA, "matemática"); // calendario oculto
+// pintarCalendario("cal-espanol", ESPANOL, "español"); // OCULTO HASTA CONFIRMAR
+</script>
+
+<!-- ===== Asistente de preguntas frecuentes ===== -->
+<button class="bot-btn" id="botBtn" aria-label="Abrir asistente"><img src="logo.png" alt=""></button>
+<div class="bot" id="bot" role="dialog" aria-label="Asistente de Alvenix">
+  <div class="bot-head"><img src="logo.png" alt=""><div><b>Asistente Alvenix</b><small>Respuestas al instante</small></div><button id="botClose" aria-label="Cerrar">×</button></div>
+  <div class="bot-body" id="botBody"></div>
+  <div class="chips" id="botChips"></div>
+  <form class="bot-form" id="botForm"><input id="botInput" placeholder="Escribe tu pregunta..." autocomplete="off"><button>Enviar</button></form>
+</div>
+<script>
+/* ==== RESPUESTAS DEL ASISTENTE (puedes editarlas) ==== */
+var BOT_WA = "https://wa.me/593987595298?text=";
+var BOT = [
+  {chip:"💲 Precios", claves:["precio","cuesta","costo","cuanto","valor","pagar","paquete","tarifa"],
+   r:"La clase individual cuesta <b>$15 la hora</b>. El <b>paquete de 8 clases</b> cuesta <b>$110</b> (ahorras $10)."},
+  {chip:"📚 Materias", claves:["materia","algebra","calculo","lineal","trigonometr","geometr","estadistic","tema","ensen"],
+   r:"Damos clases de <b>Álgebra, Cálculo, Álgebra Lineal, Trigonometría, Geometría y Estadística</b>, para secundaria y universidad."},
+  {chip:"🕒 Horarios", claves:["horario","hora","dia","cuando","disponib","domingo","sabado","fin de semana"],
+   r:"Tenemos horarios de lunes a domingo, en la mañana, la tarde y la noche. Escríbenos por WhatsApp y te enviamos los horarios libres de esta semana."},
+  {chip:"💻 Modalidad", claves:["linea","online","virtual","presencial","meet","zoom","como son","modalidad","grupo"],
+   r:"Las clases son <b>100% en línea</b> por videollamada (Google Meet o Jitsi), con pizarra digital y material en Google Classroom. Pueden ser individuales o en grupo pequeño."},
+  {chip:"📝 Exámenes", claves:["examen","prueba","supletorio","recuperacion","ingreso","parcial","final","admision"],
+   r:"Te preparamos para pruebas del colegio, supletorios, exámenes de ingreso a la universidad y parciales o finales universitarios: diagnóstico, plan de estudio, simulacros y repaso final."},
+  {chip:"👩‍🏫 Profesores", claves:["profesor","docente","quien","experiencia","titulo","formacion"],
+   r:"Somos un equipo de profesores altamente formados en matemática, con varios años de experiencia con estudiantes de secundaria y universidad."},
+  {chip:"💬 Reservar", claves:["reserv","agendar","agenda","inscrib","contratar","empezar","contacto","whatsapp","telefono","correo"],
+   r:"¡Genial! Escríbenos por <a href='https://wa.me/593987595298?text=Hola,%20quisiera%20reservar%20una%20clase' target='_blank' rel='noopener'>WhatsApp (098 759 5298)</a> o al correo <a href='mailto:e-datos.ec@gmail.com'>e-datos.ec@gmail.com</a>."}
+];
+var BOT_SALUDO = "¡Hola! 👋 Soy el asistente de Alvenix Global Training. ¿En qué te puedo ayudar? Elige una opción o escribe tu pregunta.";
+/* ==== FIN DE LA PARTE EDITABLE ==== */
+(function(){
+  var bot=document.getElementById("bot"), body=document.getElementById("botBody"), chips=document.getElementById("botChips"), started=false;
+  function quitarTildes(t){return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");}
+  function add(txt,quien){var d=document.createElement("div");d.className="msg "+quien;if(quien==="u"){d.textContent=txt;}else{d.innerHTML=txt;}body.appendChild(d);body.scrollTop=body.scrollHeight;}
+  function responder(pregunta){
+    var q=quitarTildes(pregunta), hallado=null;
+    if(/^(hola|buen|saludos|hey)/.test(q)){ add("¡Hola! 😊 Pregúntame por precios, materias, horarios o cómo reservar.","b"); return; }
+    if(/gracias/.test(q)){ add("¡Con gusto! Si quieres reservar, escríbenos por WhatsApp. 😊","b"); return; }
+    BOT.forEach(function(x){ if(!hallado && x.claves.some(function(k){return q.indexOf(k)>-1;})) hallado=x; });
+    if(hallado){ add(hallado.r,"b"); }
+    else { add("No tengo esa respuesta, pero un profesor te ayuda enseguida por <a href='"+BOT_WA+encodeURIComponent("Hola, tengo una pregunta: "+pregunta)+"' target='_blank' rel='noopener'>WhatsApp</a>. 💬","b"); }
+  }
+  BOT.forEach(function(x){var b=document.createElement("button");b.type="button";b.textContent=x.chip;b.onclick=function(){add(x.chip,"u");setTimeout(function(){add(x.r,"b");},250);};chips.appendChild(b);});
+  document.getElementById("botBtn").onclick=function(){bot.classList.toggle("open");if(!started){started=true;add(BOT_SALUDO,"b");}};
+  document.getElementById("botClose").onclick=function(){bot.classList.remove("open");};
+  document.getElementById("botForm").onsubmit=function(e){e.preventDefault();var i=document.getElementById("botInput"),t=i.value.trim();if(!t)return;add(t,"u");i.value="";setTimeout(function(){responder(t);},300);};
+})();
+</script>
+
+</body>
+</html>
