@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alvenix-nivelaciones.github.io/sitemap.xml
